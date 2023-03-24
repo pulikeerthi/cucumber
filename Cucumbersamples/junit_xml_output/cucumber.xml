@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.505" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="MyAccount-Login Feature" name="Log-in with valid username and password" time="10.08">
+<failure/>
+<system-out><![CDATA[
+Given Open the browser......................................................passed
+When Enter the URL "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F".passed
+And Enter registered username and password..................................passed
+And Click on login button...................................................passed
+Then User must successfully login to the web page...........................undefined
+]]></system-out>
+</testcase>
+</testsuite>
